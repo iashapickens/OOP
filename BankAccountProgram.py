@@ -24,6 +24,7 @@ def main():
    print('I will withdraw that from your account.')
    savings.withdraw(cash)
 
+
    # Display the balance.
    print('Your account balance is $', 
         format(savings.get_balance(), ',.2f'),
